@@ -3,8 +3,8 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import { Container } from "@mui/material";
 import { DataTable } from "../../components/DataTable";
-import { PieChart } from "../../components/PieChart/index.js";
-import { DonatChart } from "../../components/DonatChart";
+import { PieChart } from "../../components/PieChart";
+import { DoughnutChart } from "../../components/DoughnutChart";
 import { BarChart } from "../../components/BarChart";
 import { Widget } from "../../components/Widget";
 import './Home.css';
@@ -22,7 +22,7 @@ export const Home = () => {
                         </Grid>
                         <Grid item xs={6} md={4} sm={12}>
                             <Widget title="Gainers">
-                                <DonatChart/>
+                                <DoughnutChart/>
                             </Widget>
                         </Grid>
                         <Grid item xs={6} md={4} sm={12}>
